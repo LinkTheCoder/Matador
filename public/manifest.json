@@ -11,25 +11,25 @@
   "orientation": "any",
   "icons": [
     {
-      "src": "public/manifest-icon-192.maskable.png",
+      "src": "/manifest-icon-192.maskable.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "public/manifest-icon-192.maskable.png",
+      "src": "/manifest-icon-192.maskable.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "maskable"
     },
     {
-      "src": "public/manifest-icon-512.maskable.png",
+      "src": "/manifest-icon-512.maskable.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "public/manifest-icon-512.maskable.png",
+      "src": "/manifest-icon-512.maskable.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
@@ -37,37 +37,37 @@
   ],
   "screenshots": [
     {
-        "src": "public/screenshots/1.jpg",
+        "src": "/screenshots/1.jpg",
         "sizes": "1080x1920",
         "type": "image/jpg",
         "platform": "android, ios"
     },
     {
-        "src": "public/screenshots/2.jpg",
+        "src": "/screenshots/2.jpg",
         "sizes": "1080x1920",
         "type": "image/jpg",
         "platform": "android, ios"
     },
     {
-        "src": "public/screenshots/3.jpg",
+        "src": "/screenshots/3.jpg",
         "sizes": "1080x1920",
         "type": "image/jpg",
         "platform": "android, ios"
     },
     {
-        "src": "public/screenshots/4.jpg",
+        "src": "/screenshots/4.jpg",
         "sizes": "1080x1920",
         "type": "image/jpg",
         "platform": "android, ios"
     },
     {
-        "src": "public/screenshots/5.jpg",
+        "src": "/screenshots/5.jpg",
         "sizes": "1080x1920",
         "type": "image/jpg",
         "platform": "android, ios"
     },
     {
-        "src": "public/screenshots/6.jpg",
+        "src": "/screenshots/6.jpg",
         "sizes": "1080x1920",
         "type": "image/jpg",
         "platform": "android, ios"
