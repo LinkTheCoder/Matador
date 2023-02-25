@@ -10,8 +10,17 @@ self.addEventListener('install', function(event){
             cache.addAll([
                 '/',
                 'index.html',
-                'js/app.js',
-                'index.css',
+                '/src/App.jsx',
+                '/src/index.css',
+                '/src/assets/CatNaut.gif',
+                '/src/components/CardFitness.jsx',
+                '/src/components/CardHome.jsx',
+                '/src/components/CardMindful.jsx',
+                '/src/components/CardPositivity.jsx',
+                '/src/components/CardTeaTime.jsx',
+                '/src/components/Header.jsx',
+                '/src/components/Nav.jsx',
+                '/src/components/Timer.jsx',
             ]);
         })
     );
