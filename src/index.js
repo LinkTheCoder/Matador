@@ -1,22 +1,25 @@
+import React from 'react'
 import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
-import News from "./news";
-import Nav from "./nav";
+import CardMindful from './components/CardMindful.jsx'
+import CardTeaTime from './components/CardTeaTime.jsx'
+import CardFitness from './components/CardFitness.jsx'
+import CardPositivity from './components/CardPositivity.jsx'
+import Nav from "./components/Nav";
+import Header from "./components/Header";
 import {HashRouter,Route} from "react-router-dom"
 
-// Ändrar webbläsarens URL och håller komponenter synkade med URL:en 
-// Sparar data som "NameNews", skickar till komponenten "News" 
+
 ReactDOM.render(
   <HashRouter>
-  <Nav />
-  <Route path="/" exact component={App}></Route>
-    <Route path="/Nintendo"><News NameNews="nintendo+games" /></Route>
-    <Route path="/Playstation"><News NameNews="playstation+games"/></Route>
-    <Route path="/Xbox"><News NameNews="xbox+games" /></Route>
-    <Route path="/PC"><News NameNews="pc+games" /></Route>
-    <Route path="/Retro"><News NameNews="retro+games" /></Route>
-    <Route path="/Indie"><News NameNews="indie+games" /></Route>
-  </HashRouter>,
+    <Header/>
+    <Route path="/" exact component={App}></Route>
+    <Route path="/Mindful"><CardMindful/></Route>
+    <Route path="/TeaTime"><CardTeaTime/></Route>
+    <Route path="/Fitness"><CardFitness/></Route>
+    <Route path="/Positivity"><CardPositivity/></Route>
+    <Nav/>
+    </HashRouter>,
   document.getElementById("root")
 );
