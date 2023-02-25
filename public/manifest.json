@@ -37,12 +37,43 @@
   ],
   "screenshots": [
     {
-      "src": "https://www.pwabuilder.com/assets/screenshots/screen1.png",
-      "sizes": "2880x1800",
-      "type": "image/png",
-      "description": "A screenshot of the home page"
+        "src": "public/screenshots/1.jpg",
+        "sizes": "1080x1920",
+        "type": "image/jpg",
+        "platform": "android, ios"
+    },
+    {
+        "src": "public/screenshots/2.jpg",
+        "sizes": "1080x1920",
+        "type": "image/jpg",
+        "platform": "android, ios"
+    },
+    {
+        "src": "public/screenshots/3.jpg",
+        "sizes": "1080x1920",
+        "type": "image/jpg",
+        "platform": "android, ios"
+    },
+    {
+        "src": "public/screenshots/4.jpg",
+        "sizes": "1080x1920",
+        "type": "image/jpg",
+        "platform": "android, ios"
+    },
+    {
+        "src": "public/screenshots/5.jpg",
+        "sizes": "1080x1920",
+        "type": "image/jpg",
+        "platform": "android, ios"
+    },
+    {
+        "src": "public/screenshots/6.jpg",
+        "sizes": "1080x1920",
+        "type": "image/jpg",
+        "platform": "android, ios"
     }
   ],
+
   "shortcuts": [
     {
         "name": "Home",
