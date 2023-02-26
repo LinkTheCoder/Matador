@@ -1,4 +1,4 @@
-var CACHE_STATIC_NAME = 'static';
+var CACHE_STATIC_NAME = '1.0.0';
 var CACHE_DYNAMIC_NAME ='dynamic';
 
 self.addEventListener('install', function(event){
@@ -10,6 +10,7 @@ self.addEventListener('install', function(event){
             cache.addAll([
                 '/',
                 'index.html',
+                'regsw.js',
                 '/src/App.jsx',
                 '/src/index.css',
                 '/src/assets/CatNaut.gif',
