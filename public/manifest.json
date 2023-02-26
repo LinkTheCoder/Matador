@@ -37,37 +37,37 @@
   ],
   "screenshots": [
     {
-        "src": "screenshots/1.jpg",
+        "src": "/screenshots/1.jpg",
         "sizes": "1080x1920",
         "type": "image/jpg",
         "platform": "android, ios"
     },
     {
-        "src": "screenshots/2.jpg",
+        "src": "/screenshots/2.jpg",
         "sizes": "1080x1920",
         "type": "image/jpg",
         "platform": "android, ios"
     },
     {
-        "src": "screenshots/3.jpg",
+        "src": "/screenshots/3.jpg",
         "sizes": "1080x1920",
         "type": "image/jpg",
         "platform": "android, ios"
     },
     {
-        "src": "screenshots/4.jpg",
+        "src": "/screenshots/4.jpg",
         "sizes": "1080x1920",
         "type": "image/jpg",
         "platform": "android, ios"
     },
     {
-        "src": "screenshots/5.jpg",
+        "src": "/screenshots/5.jpg",
         "sizes": "1080x1920",
         "type": "image/jpg",
         "platform": "android, ios"
     },
     {
-        "src": "screenshots/6.jpg",
+        "src": "/screenshots/6.jpg",
         "sizes": "1080x1920",
         "type": "image/jpg",
         "platform": "android, ios"
@@ -77,9 +77,8 @@
   "shortcuts": [
     {
         "name": "Home",
-        "url": "/",
+        "url": "/#",
         "icons": [
-
           {
              "src": "/icons/IconHome.png",
              "sizes": "96x96",
@@ -90,19 +89,27 @@
     },
     {
         "name": "Mindful",
-        "url": "#/Mindful"
+        "url": "/Mindful",
+        "icons": [
+          {
+             "src": "/icons/IconMindful.png",
+             "sizes": "96x96",
+             "type": "image/png",
+             "purpose": "any"
+          }
+       ]
     },
     {
         "name": "Tea Time",
-        "url": "#/TeaTime"
+        "url": "/TeaTime"
     },
     {
         "name": "Fitness",
-        "url": "#/Fitness"
+        "url": "/Fitness"
     },
     {
         "name": "Positivity",
-        "url": "#/Positivity"
+        "url": "/Positivity"
     }
   ]
 }
