@@ -24,7 +24,7 @@ export default function CardTeaTime() {
     <div class="text-primary font-bold text-3xl mb-2">Eat pawsomly!</div>
     <p class="text-gray text-base">
     Everybody need nutrition to get energy.
-Listen to your body and mind and.
+Listen to your body and mind.
 We all have different metabolism, judge what's best just for yourself.
     </p>
   </div>
