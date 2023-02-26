@@ -101,15 +101,39 @@
     },
     {
         "name": "Tea Time",
-        "url": "/TeaTime"
+        "url": "/#/TeaTime",
+        "icons": [
+          {
+             "src": "/icons/IconTeaTime.png",
+             "sizes": "96x96",
+             "type": "image/png",
+             "purpose": "any"
+          }
+       ]
     },
     {
         "name": "Fitness",
-        "url": "/Fitness"
+        "url": "/#/Fitness",
+        "icons": [
+          {
+             "src": "/icons/IconTeaTime.png",
+             "sizes": "96x96",
+             "type": "image/png",
+             "purpose": "any"
+          }
+       ]
     },
     {
         "name": "Positivity",
-        "url": "/Positivity"
+        "url": "/#/Positivity",
+        "icons": [
+          {
+             "src": "/icons/IconPositivity.png",
+             "sizes": "96x96",
+             "type": "image/png",
+             "purpose": "any"
+          }
+       ]
     }
   ]
 }
