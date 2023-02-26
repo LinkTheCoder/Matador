@@ -77,7 +77,7 @@
   "shortcuts": [
     {
         "name": "Home",
-        "url": "/#",
+        "url": "/",
         "icons": [
           {
              "src": "/icons/IconHome.png",
