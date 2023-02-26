@@ -116,7 +116,7 @@
         "url": "/#/Fitness",
         "icons": [
           {
-             "src": "/icons/IconTeaTime.png",
+             "src": "/icons/IconFitness.png",
              "sizes": "96x96",
              "type": "image/png",
              "purpose": "any"
