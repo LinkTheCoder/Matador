@@ -81,19 +81,19 @@
     },
     {
         "name": "Mindful",
-        "url": "/Mindful"
+        "url": "#/Mindful"
     },
     {
         "name": "Tea Time",
-        "url": "/TeaTime"
+        "url": "#/TeaTime"
     },
     {
         "name": "Fitness",
-        "url": "/Fitness"
+        "url": "#/Fitness"
     },
     {
         "name": "Positivity",
-        "url": "/Positivity"
+        "url": "#/Positivity"
     }
   ]
 }
