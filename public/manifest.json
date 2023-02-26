@@ -82,7 +82,7 @@
 
           {
              "src": "/icons/IconHome.png",
-             "type": "image/svg+xml",
+             "type": "image/png",
              "purpose": "any"
           }
        ]
