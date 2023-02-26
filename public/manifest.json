@@ -1,7 +1,7 @@
 {
   "name": "Space Out Cat",
   "short_name": "SOC",
-  "start_url": "./",
+  "start_url": "/",
   "display": "standalone",
   "description": "A self-care app with a space & cat theme",
   "lang": "en",
