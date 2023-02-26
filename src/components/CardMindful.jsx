@@ -5,7 +5,7 @@ export default function CardMindful() {
 
 <div class="rounded overflow-hidden">
   <div class="px-6 py-4 text-center">
-    <div class="text-5xl mb-5">😮‍💨</div>
+    <div class="text-5xl mb-5">🌬️</div>
     <div class="text-primary font-bold text-3xl mb-2">4-7-8 purr!</div>
     <p class="text-gray text-base">
     Emptying the lungs, breath in through the nose for 4 seconds. 
