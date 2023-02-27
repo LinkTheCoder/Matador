@@ -5,9 +5,9 @@ export default function Nav() {
     return ( 
 <body>
 <footer className="fixed bottom-0" >
-    <nav class="backdrop-blur-sm bg-secondary/50 fixed bottom-0 w-full">
-      <div class="py-2 flex md:py-4">
-        <div class="flex space-x-7 mx-auto">
+    <nav className="backdrop-blur-sm bg-secondary/50 fixed bottom-0 w-full">
+      <div className="py-2 flex md:py-4">
+        <div className="flex space-x-7 mx-auto">
 
         <Link to="/Mindful">
           <div>

@@ -2,7 +2,7 @@ import {FaPlay, FaPause, FaBackward} from 'react-icons/fa';
   
   
   export default function Timer() {
-      return ( 		<><p class="time">
+      return ( 		<><p className="time">
           <span id="minutes">00</span>:<span id="seconds">00</span>:<span
               id="tens"
           >00</span>
