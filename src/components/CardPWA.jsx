@@ -1,5 +1,4 @@
 import {FaChrome, FaEdge, FaWindows, FaLinux, FaApple, FaAndroid} from 'react-icons/fa';
-import React, { useEffect, useState } from "react";
 import InstallPWA from './InstallPWA.jsx'
 import InstallAndroid from './InstallAndroid.jsx'
 
