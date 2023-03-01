@@ -1,6 +1,0 @@
-[{
-      "relation": ["delegate_permission/common.handle_all_urls"],
-      "target" : { "namespace": "android_app", "package_name": "app.netlify.spaceoutcat.twa",
-                   "sha256_cert_fingerprints": ["A0:DA:50:E1:06:0D:B9:19:51:18:79:E5:C5:89:46:31:B0:FC:11:C3:FF:5C:8B:CD:B5:5F:5A:0B:14:42:A0:EF"] }
-    }
-]

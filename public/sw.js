@@ -22,6 +22,9 @@ self.addEventListener('install', function(event){
                 './src/components/Header.jsx',
                 './src/components/Nav.jsx',
                 './src/components/Timer.jsx',
+                './src/components/InstallPWA.jsx',
+                './src/components/InstallAndroid.jsx',
+                './src/components/CardPWA.jsx',
             ]);
         })
     );

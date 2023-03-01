@@ -1,3 +1,5 @@
+import {Link} from "react-router-dom"
+
 export default function CardHome() {
     return ( 
 
@@ -13,9 +15,6 @@ export default function CardHome() {
     </p>
   </div>
   <div className="mb-7 px-6 pt-4 pb-2 text-center md:mb-0">
-  <input
-  type="checkbox"
-  className="h-6 w-6 form-checkbox rounded text-primary focus:ring-primary"/>
   </div>
 </div>
 <div className="rounded overflow-hidden">
@@ -24,29 +23,22 @@ export default function CardHome() {
     <div className="text-primary font-bold text-3xl mb-2">Any minute meow!</div>
     <p className="text-gray text-base">
     Keep track on how long you're mind are in space or your body on earth. 
-    A perfect counter is available to use in the app.
+    Also features checkboxes to help you remember.
     </p>
   </div>
   <div className="mb-7 px-6 pt-4 pb-2 text-center md:mb-0">
-  <input
-  type="checkbox"
-  className="h-6 w-6 form-checkbox rounded text-primary focus:ring-primary"/>
   </div>
 </div>
 
 <div className="rounded overflow-hidden">
   <div className="px-6 py-4 text-center">
-    <div className="text-5xl mb-5">📝</div>
-    <div className="text-primary font-bold text-3xl mb-2">Claw and Order!</div>
+    <div className="text-5xl mb-5">📱</div>
+    <div className="text-primary font-bold text-3xl mb-2">Purfect App!</div>
     <p className="text-gray text-base">
-    Pardon me, but sometimes humans often tends to forget things. 
-    That's why every task also has a checkbox, great right?
+   <b>Space Out Cat</b> is a cross-platform app to desktop, tablets and mobiles. <Link to="/PWA"><a className="text-primary font-bold underline">Download it here.</a></Link>
     </p>
   </div>
   <div className="mb-7 px-6 pt-4 pb-2 text-center md:mb-0">
-  <input
-  type="checkbox"
-  className="h-6 w-6 form-checkbox rounded text-primary focus:ring-primary"/>
   </div>
 </div>
 </div>

@@ -40,7 +40,7 @@ We all have different metabolism, judge what's best just for yourself.
     <div className="text-5xl mb-5">🍫</div>
     <div className="text-primary font-bold text-3xl mb-2">Feline sassy!</div>
     <p className="text-gray text-base">
- Treat your self when you have achived somthing good.
+ Treat your self when you have achived something good.
  Whetever it's chocolate or other eatable or drinkable thing. Eat things you enjoy in healthy amounts.
     </p>
   </div>

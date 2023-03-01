@@ -17,6 +17,9 @@
       "purpose": "any"
     },
     {
+      "prefer_related_applications": false
+    },
+    {
       "src": "manifest-icon-192.maskable.png",
       "sizes": "192x192",
       "type": "image/png",
