@@ -20,7 +20,7 @@ export default function CardPWA() {
     <p className="text-gray text-base">
     Download the app by using Chrome or Edge on Windows, Linux or Mac.
     </p>
- <InstallPWA/>
+    <InstallPWA/>
   </div>
   <div className="mb-7 px-6 pt-4 pb-2 text-center md:mb-0">
   </div>

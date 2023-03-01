@@ -26,6 +26,7 @@ const InstallPWA = () => {
   if (!supportsPWA) {
     return null;
   }
+  
   return (
     <button
       className="link-button mt-3 bg-fuchsia-700 hover:bg-fuchsia-800 text-white font-bold py-2 px-4 rounded"

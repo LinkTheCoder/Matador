@@ -17,9 +17,6 @@
       "purpose": "any"
     },
     {
-      "prefer_related_applications": false
-    },
-    {
       "src": "manifest-icon-192.maskable.png",
       "sizes": "192x192",
       "type": "image/png",
@@ -43,37 +40,37 @@
         "src": "/screenshots/1.jpg",
         "sizes": "1080x1920",
         "type": "image/jpg",
-        "platform": "android, ios"
+        "platform": "wide, narrow"
     },
     {
         "src": "/screenshots/2.jpg",
         "sizes": "1080x1920",
         "type": "image/jpg",
-        "platform": "android, ios"
+        "platform": "wide, narrow"
     },
     {
         "src": "/screenshots/3.jpg",
         "sizes": "1080x1920",
         "type": "image/jpg",
-        "platform": "android, ios"
+        "platform": "wide, narrow"
     },
     {
         "src": "/screenshots/4.jpg",
         "sizes": "1080x1920",
         "type": "image/jpg",
-        "platform": "android, ios"
+        "platform": "wide, narrow"
     },
     {
         "src": "/screenshots/5.jpg",
         "sizes": "1080x1920",
         "type": "image/jpg",
-        "platform": "android, ios"
+        "platform": "wide, narrow"
     },
     {
         "src": "/screenshots/6.jpg",
         "sizes": "1080x1920",
         "type": "image/jpg",
-        "platform": "android, ios"
+        "platform": "wide, narrow"
     }
   ],
 
