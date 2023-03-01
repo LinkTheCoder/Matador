@@ -40,37 +40,37 @@
         "src": "/screenshots/1.jpg",
         "sizes": "1080x1920",
         "type": "image/jpg",
-        "platform": "wide, narrow"
+        "platform": "android, chromeos, windows, macos, kaios"
     },
     {
         "src": "/screenshots/2.jpg",
         "sizes": "1080x1920",
         "type": "image/jpg",
-        "platform": "wide, narrow"
+        "platform": "android, chromeos, windows, macos, kaios"
     },
     {
         "src": "/screenshots/3.jpg",
         "sizes": "1080x1920",
         "type": "image/jpg",
-        "platform": "wide, narrow"
+        "platform": "android, chromeos, windows, macos, kaios"
     },
     {
         "src": "/screenshots/4.jpg",
         "sizes": "1080x1920",
         "type": "image/jpg",
-        "platform": "wide, narrow"
+        "platform": "android, chromeos, windows, macos, kaios"
     },
     {
         "src": "/screenshots/5.jpg",
         "sizes": "1080x1920",
         "type": "image/jpg",
-        "platform": "wide, narrow"
+        "platform": "android, chromeos, windows, macos, kaios"
     },
     {
         "src": "/screenshots/6.jpg",
         "sizes": "1080x1920",
         "type": "image/jpg",
-        "platform": "wide, narrow"
+        "platform": "android, chromeos, windows, macos, kaios"
     }
   ],
 
