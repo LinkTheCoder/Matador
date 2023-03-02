@@ -4,7 +4,7 @@
 
 🚀 A self-care web app with space & cat theme!
 
-📱 It's cross-platform and works on desktop, tablets & mobiles!
+💻 It's cross-platform and works on desktop, tablets & mobiles!
 
 ⏲️ Included timer to keep track on time!
 
@@ -13,3 +13,5 @@
 📐 Available in portrait & landscape mode!
 
 📶 Works online & Offline!
+
+📲 Automatic updates!
