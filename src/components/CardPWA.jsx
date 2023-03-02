@@ -1,6 +1,4 @@
 import {FaChrome, FaEdge, FaWindows, FaLinux, FaApple, FaAndroid} from 'react-icons/fa';
-import InstallPWA from './InstallPWA.jsx'
-import InstallAndroid from './InstallAndroid.jsx'
 
 export default function CardPWA() {
     return ( 
@@ -20,7 +18,8 @@ export default function CardPWA() {
     <p className="text-gray text-base">
     Download the app by using Chrome or Edge on Windows, Linux or Mac.
     </p>
-    <InstallPWA/>
+    <button className= "mt-3 bg-fuchsia-700 hover:bg-fuchsia-800 text-white font-bold py-2 px-4 rounded" id="installApp">Install</button>
+ 
   </div>
   <div className="mb-7 px-6 pt-4 pb-2 text-center md:mb-0">
   </div>
@@ -35,7 +34,6 @@ export default function CardPWA() {
     <p className="text-gray text-base">
     The app is also available to mobiles and tablets with Android.
     </p>
-    <InstallAndroid/>
   </div>
   <div className="mb-7 px-6 pt-4 pb-2 text-center md:mb-0">
   </div>
