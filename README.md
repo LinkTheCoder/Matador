@@ -6,12 +6,12 @@
 
 💻 It's cross-platform and works on desktop, tablets & mobiles!
 
+📶 Works online & Offline!
+
+📲 Automatic updates!
+
 ⏲️ Included timer to keep track on time!
 
 ☑️ Checkboxes to keep track on tasks!
 
 📐 Available in portrait & landscape mode!
-
-📶 Works online & Offline!
-
-📲 Automatic updates!
