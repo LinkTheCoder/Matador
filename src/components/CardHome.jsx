@@ -1,8 +1,13 @@
 import {Link} from "react-router-dom"
 
 export default function CardHome() {
+  function refreshPage() {
+    setTimeout(()=>{
+        window.location.reload(false);
+    }, 300);
+    console.log('page reload')
+}
     return ( 
-
 <div className="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5">
 
 <div className="rounded overflow-hidden">
@@ -36,7 +41,7 @@ export default function CardHome() {
     <div className="text-primary font-bold text-3xl mb-2">Purfect App!</div>
     <p className="text-gray text-base">
    <b>Space Out Cat</b> is a cross-platform app to desktop, tablets and mobiles. It's features automatic updates & offline mode! 
-   <Link to="/PWA"><a className="text-primary font-bold underline"> Download it here.</a></Link>
+   <Link to="/PWA" onClick={refreshPage}><a className="text-primary font-bold underline"> Download it here.</a></Link>
     </p>
   </div>
   <div className="mb-7 px-6 pt-4 pb-2 text-center md:mb-0">

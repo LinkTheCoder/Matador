@@ -26,6 +26,7 @@ ReactDOM.render(
   document.getElementById("root")
 );
 
+// Install PWA
 let deferredPrompt;
     window.addEventListener('beforeinstallprompt', (e) => {
         deferredPrompt = e;
@@ -41,3 +42,20 @@ let deferredPrompt;
             }
         }
     });
+
+    // Install PWA
+let deferredPrompt2;
+window.addEventListener('beforeinstallprompt', (e) => {
+    deferredPrompt = e;
+});
+
+const installApp2 = document.getElementById('installApp2');
+installApp2.addEventListener('click', async () => {
+    if (deferredPrompt2 !== null) {
+        deferredPrompt2.prompt();
+        const { outcome } = await deferredPrompt2.userChoice;
+        if (outcome === 'accepted') {
+            deferredPrompt2 = null;
+        }
+    }
+});
