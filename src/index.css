@@ -2,16 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-background-color: #171717;
-margin-bottom: 2rem;
+@layer base {
+  button {
+    @apply border rounded-xl px-5 py-1
+  }
 }
-  
-  .time {
-	font-size: 4rem;
-  }
 
-  p {
-	color: #cdcdcd;
-  }
- 
+* {
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: NotoColorEmojiLimited;
+  unicode-range: U+1F1E6-1F1FF;
+  src: url(https://raw.githack.com/googlefonts/noto-emoji/main/fonts/NotoColorEmoji.ttf);
+}
+
+div {
+  font-family: 'NotoColorEmojiLimited', -apple-system, BlinkMacSystemFont, 
+  'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 
+  'Segoe UI Emoji', 'Segoe UI Symbol';
+}

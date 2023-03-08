@@ -1,5 +1,5 @@
-var CACHE_STATIC_NAME = 'static-v1.0.3';
-var CACHE_DYNAMIC_NAME ='dynamic-v1.0.3';
+var CACHE_STATIC_NAME = 'static-v1.0.1';
+var CACHE_DYNAMIC_NAME ='dynamic-v1.0.1';
 
 self.addEventListener('install', function(event){
     console.log('[Service Worker] Install Service Worker', event);
@@ -13,18 +13,32 @@ self.addEventListener('install', function(event){
                 'regsw.js',
                 '/App.jsx',
                 '/index.css',
-                './assets/CatNaut.gif',
-                './components/CardFitness.jsx',
-                './components/CardHome.jsx',
-                './src/components/CardMindful.jsx',
-                './src/components/CardPositivity.jsx',
-                './src/components/CardTeaTime.jsx',
-                './src/components/Header.jsx',
-                './src/components/Nav.jsx',
-                './src/components/Timer.jsx',
-                './src/components/InstallPWA.jsx',
-                './src/components/InstallAndroid.jsx',
                 './src/components/CardPWA.jsx',
+                './components/Dinner.jsx',
+                './components/FindUs.jsx',
+                './components/Footer.jsx',
+                './components/Hero.jsx',
+                './components/Lunch.jsx',
+                './components/Navbar.jsx',
+                './data/data.js',
+                'index.html',
+                'images/Azteka.jpg',
+                'images/BarnPizza.jpg',
+                'images/Bolognese.jpg',
+                'images/Calzone.jpg',
+                'images/Falafel.jpg',
+                'images/HeroImage.jpg',
+                'images/Husmakost.jpg',
+                'images/Italy.jpg',
+                'images/Kebab.jpg',
+                'images/KebabLunch.jpg',
+                'images/Margherita.jpg',
+                'images/NewYork.jpg',
+                'images/Romana.jpg',
+                'images/Sallad.jpg',
+                'images/SalladTallrik.jpg',
+                'images/Skrovmal.jpg',
+                'images/Svamp.jpg'
             ]);
         })
     );

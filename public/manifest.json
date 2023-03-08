@@ -1,13 +1,13 @@
 {
-  "name": "Space Out Cat",
-  "short_name": "SOC",
+  "name": "Matador",
+  "short_name": "Matador",
   "start_url": "/",
   "display": "standalone",
-  "description": "A self-care app with a space & cat theme",
-  "lang": "en",
+  "description": "Restaurang Mastador App",
+  "lang": "sv",
   "dir": "auto",
-  "theme_color": "#171717",
-  "background_color": "#171717",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
   "orientation": "any",
   "icons": [
     {
@@ -72,68 +72,6 @@
         "type": "image/jpg",
         "platform": "android, chromeos, windows, macos, kaios"
     }
-  ],
-
-  "shortcuts": [
-    {
-        "name": "Home",
-        "url": "/",
-        "icons": [
-          {
-             "src": "/icons/IconHome.png",
-             "sizes": "96x96",
-             "type": "image/png",
-             "purpose": "any"
-          }
-       ]
-    },
-    {
-        "name": "Mindful",
-        "url": "/#/Mindful",
-        "icons": [
-          {
-             "src": "/icons/IconMindful.png",
-             "sizes": "96x96",
-             "type": "image/png",
-             "purpose": "any"
-          }
-       ]
-    },
-    {
-        "name": "Tea Time",
-        "url": "/#/TeaTime",
-        "icons": [
-          {
-             "src": "/icons/IconTeaTime.png",
-             "sizes": "96x96",
-             "type": "image/png",
-             "purpose": "any"
-          }
-       ]
-    },
-    {
-        "name": "Fitness",
-        "url": "/#/Fitness",
-        "icons": [
-          {
-             "src": "/icons/IconFitness.png",
-             "sizes": "96x96",
-             "type": "image/png",
-             "purpose": "any"
-          }
-       ]
-    },
-    {
-        "name": "Positivity",
-        "url": "/#/Positivity",
-        "icons": [
-          {
-             "src": "/icons/IconPositivity.png",
-             "sizes": "96x96",
-             "type": "image/png",
-             "purpose": "any"
-          }
-       ]
-    }
   ]
 }
+

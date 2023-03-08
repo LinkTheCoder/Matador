@@ -1,5 +1,5 @@
 {
-  "name": "space-out-cat",
+  "name": "matador",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
@@ -13,6 +13,7 @@
     "react-dom": "^17.0.2",
     "react-icons": "^4.7.1",
     "react-router-dom": "^5.3.0",
+    "react-router-hash-link": "^2.4.3",
     "react-scripts": "^5.0.1",
     "react-svg": "^16.1.2",
     "web-vitals": "^1.1.2"
