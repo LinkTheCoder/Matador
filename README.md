@@ -13,3 +13,5 @@
 📶 Works online & offline!
 
 📲 Automatic updates!
+
+<img src="https://i.imgur.com/M3CLImx.png" width="500">
