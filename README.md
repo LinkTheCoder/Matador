@@ -2,7 +2,7 @@
 
 <a href="https://restaurang-matador.netlify.app/"><img src="https://emojipedia.org/static/img/footer/use_in_browser_dark.svg" width="200"/></a> <a href="https://restaurang-matador.netlify.app/#/PWA"><img src="https://i.imgur.com/S0z63M4.png" width="200"/></a>
 
-🍕 A redesign of a restaurant website!
+🍕 A re-make of a restaurant website!
 
 📱 Modern responsive design for all devices!
 
