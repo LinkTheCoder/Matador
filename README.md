@@ -14,4 +14,4 @@
 
 📲 Automatic updates!
 
-<img src="https://i.imgur.com/M3CLImx.png" width="500">
+<img src="https://i.imgur.com/FhjuQnH.png" width="700">
