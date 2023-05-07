@@ -15,9 +15,8 @@ export default function CardPWA() {
 
     <div className="text-yellow-500 font-bold text-3xl mb-2">Funktioner!</div>
     <p className="text-gray text-base">
-    💻 Responsiv design med stående & liggande läge!<br></br>
-    📶 Funkar både online & offline!<br></br>
-    📲 Automatiska uppdateringar!
+    💻 Responsiv design i stående & liggande läge!<br></br>
+    📲 Automatiska uppdateringar online!
     </p>
   </div>
   <div className="mb-7 px-6 pt-4 pb-2 text-center md:mb-0">

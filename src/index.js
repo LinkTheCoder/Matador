@@ -4,14 +4,14 @@ import "./index.css";
 import App from "./App";
 import Navbar from './components/Navbar.jsx'
 import CardPWA from './components/CardPWA.jsx'
-import {HashRouter,Route} from "react-router-dom"
+import {BrowserRouter,Route} from "react-router-dom"
 
 ReactDOM.render(
-  <HashRouter>
+  <BrowserRouter>
     <Navbar/>
     <Route path="/" exact component={App}></Route>
     <Route path="/PWA"><CardPWA/></Route>
-    </HashRouter>,
+    </BrowserRouter>,
   document.getElementById("root")
 );
 
