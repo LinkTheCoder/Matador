@@ -19,7 +19,7 @@ const Lunch = () => {
         </div>
         <img
         className='max-h-[160px] md:max-h-[200px] w-full object-cover rounded-xl'
-          src='/images/KebabLunch.jpg'
+          src='/images/KebabLunch.webp'
           alt='/'
         />
       </div>
@@ -34,7 +34,7 @@ const Lunch = () => {
         </div>
         <img
         className='max-h-[160px] md:max-h-[200px] w-full object-cover rounded-xl'
-          src='/images/SalladTallrik.jpg'
+          src='/images/SalladTallrik.webp'
           alt='/'
         />
       </div>
@@ -49,7 +49,7 @@ const Lunch = () => {
         </div>
         <img
         className='max-h-[160px] md:max-h-[200px] w-full object-cover rounded-xl'
-          src='/images/Husmakost.jpg'
+          src='/images/Husmakost.webp'
           alt='/'
         />
       </div>
