@@ -4,7 +4,7 @@ export const data = [
       name: 'Margherita | Tomat | 87:-',
       category: 'pizza',
       image:
-        '/images/Margherita.jpg',
+        '/images/Margherita.webp',
       price: '🇮🇹',
     },
     {
@@ -12,7 +12,7 @@ export const data = [
       name: 'New York | Köttfärs & vitlök | 130:-',
       category: 'pizza',
       image:
-        '/images/NewYork.jpg',
+        '/images/NewYork.webp',
       price: '🇺🇸',
     },
     {
@@ -20,7 +20,7 @@ export const data = [
       name: 'Azteka | Jalapeño & Tacosås | 100:-',
       category: 'pizza',
       image:
-        '/images/Azteka.jpg',
+        '/images/Azteka.webp',
       price: '🇲🇽',
     },
     {
@@ -28,7 +28,7 @@ export const data = [
       name: 'Calzone | Skinka | 95:-',
       category: 'inbakat',
       image:
-        '/images/Calzone.jpg',
+        '/images/Calzone.webp',
       price: '',
     },
     {
@@ -36,7 +36,7 @@ export const data = [
       name: 'Champinjon Pizza | Spenat | 100:-',
       category: 'veganskt',
       image:
-        '/images/Svamp.jpg',
+        '/images/Svamp.webp',
       price: '',
     },
     {
@@ -44,7 +44,7 @@ export const data = [
       name: 'Spaghetti bolognese | Köttfärs & Vin | 115:-',
       category: 'pasta',
       image:
-        '/images/Bolognese.jpg',
+        '/images/Bolognese.webp',
       price: '',
     },
     {
@@ -52,7 +52,7 @@ export const data = [
       name: 'Kebab med Bröd | 99:-',
       category: 'kebab',
       image:
-        '/images/Kebab.jpg',
+        '/images/Kebab.webp',
       price: '',
     },
     {
@@ -60,7 +60,7 @@ export const data = [
       name: 'Falafelrulle | 99:-',
       category: 'rulle',
       image:
-        '/images/Falafel.jpg',
+        '/images/Falafel.webp',
       price: '',
     },
     {
@@ -68,7 +68,7 @@ export const data = [
       name: 'Skråvmål | Pommes & Dryck (33cl) | 99:- ',
       category: 'grillat',
       image:
-        '/images/Skrovmal.jpg',
+        '/images/Skrovmal.webp',
       price: '',
     },
     {
@@ -76,7 +76,7 @@ export const data = [
       name: 'Ost & Skink Sallad | 90:-',
       category: 'sallad',
       image:
-        '/images/Sallad.jpg',
+        '/images/Sallad.webp',
       price: '',
     },
     {
@@ -84,7 +84,7 @@ export const data = [
       name: 'Barn Pizza | Ost & SKinka | 75:-',
       category: 'barn',
       image:
-        '/images/BarnPizza.jpg',
+        '/images/BarnPizza.webp',
       price: '',
     },
     {
@@ -92,7 +92,7 @@ export const data = [
       name: 'Romana | Bacon & Lök | 95:-',
       category: 'pizza',
       image:
-        '/images/Romana.jpg',
+        '/images/Romana.webp',
       price: '🇮🇹',
     },
   ];
