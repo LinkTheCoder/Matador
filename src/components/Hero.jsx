@@ -10,7 +10,7 @@ const Hero = () => {
                 <h1 className='px-4 text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold'> & <span>Restaurang</span> 
                 <h1 className='whitespace-pre-line text-yellow-500'>Öst på Stan</h1></h1>
             </div>
-            <img className='rounded-xl w-full max-h-[500px] object-cover' src='/images/HeroImage.jpg' alt="/" />
+            <img className='rounded-xl w-full max-h-[500px] object-cover' src='/images/HeroImage.webp' alt="/" />
         </div>
     </div>
   )
