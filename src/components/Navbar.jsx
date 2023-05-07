@@ -78,7 +78,7 @@ export default function Navbar() {
                             <FaSearchLocation className="mt-1 mr-1 w-6" color="#eab308"/><Link to="/#HittaOss">HITTA OSS</Link>
                             </div>
                             <div className="text-yellow-500 font-semibold hover:text-yellow-600 flex">
-                            <FaMobile className="mt-1 mr-1 w-6" color="#eab308"/><Link to="PWA" onClick={refreshPage}>APP</Link>
+                            <FaMobile className="mt-1 mr-1 w-6" color="#eab308"/><Link to="/PWA" onClick={refreshPage}>APP</Link>
                             </div>
                         </ul>
                     </div>

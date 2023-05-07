@@ -10,7 +10,7 @@ ReactDOM.render(
   <BrowserRouter>
     <Navbar/>
     <Route path="/" exact component={App}></Route>
-    <Route path="PWA"><CardPWA/></Route>
+    <Route path="/PWA"><CardPWA/></Route>
     </BrowserRouter>,
   document.getElementById("root")
 );
