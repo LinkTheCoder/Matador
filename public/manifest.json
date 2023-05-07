@@ -53,12 +53,6 @@
         "sizes": "1080x1920",
         "type": "image/jpg",
         "platform": "android, chromeos, windows, macos, kaios"
-    },
-    {
-        "src": "/screenshots/4.jpg",
-        "sizes": "1080x1920",
-        "type": "image/jpg",
-        "platform": "android, chromeos, windows, macos, kaios"
     }
   ]
 }
