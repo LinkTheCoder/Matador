@@ -64,7 +64,7 @@ export default function Navbar() {
                         className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
                             navbar ? "block" : "hidden"}`}
                     >
-                        <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
+                        <div className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
                             <div className="text-yellow-500 font-semibold hover:text-yellow-600 flex">
                             <FaHome className="mt-1 mr-1 w-6" color="#eab308"/><Link to="/">HEM</Link>
                             </div>
@@ -80,7 +80,7 @@ export default function Navbar() {
                             <div className="text-yellow-500 font-semibold hover:text-yellow-600 flex">
                             <FaMobile className="mt-1 mr-1 w-6" color="#eab308"/><Link to="/PWA" onClick={refreshPage}>APP</Link>
                             </div>
-                        </ul>
+                        </div>
                     </div>
                 </div>
             </div>
