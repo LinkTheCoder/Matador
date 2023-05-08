@@ -115,6 +115,7 @@ const Dinner = () => {
             <button
               onClick={() => filterPrice('🇮🇹')}
               className='m-1 border-yellow-500 hover:bg-yellow-500 hover:text-white'
+              id="flags"
             >
             🇮🇹
             </button>
@@ -122,6 +123,7 @@ const Dinner = () => {
             <button
               onClick={() => filterPrice('🇺🇸')}
               className='m-1 border-yellow-500 hover:bg-yellow-500 hover:text-white'
+              id="flags"
             >
               🇺🇸
             </button>
@@ -129,6 +131,7 @@ const Dinner = () => {
             <button
               onClick={() => filterPrice('🇲🇽')}
               className='m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white'
+              id="flags"
             >
               🇲🇽
             </button>
@@ -153,7 +156,7 @@ const Dinner = () => {
             <div className='flex justify-between px-2 py-4'>
               <p className='font-bold'>{item.name}</p>
               <p>
-                <span className='text-white p-1 rounded-full'>
+                <span id="flags" className='text-white p-1 rounded-full'>
                   {item.price}
                 </span>
               </p>
