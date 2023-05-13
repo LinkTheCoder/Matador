@@ -142,7 +142,7 @@ const Dinner = () => {
       
 
       {/* Display foods */}
-      <div className='grid grid-cols-2 lg:grid-cols-4 gap-6 pt-4'>
+      <div className='grid grid-cols-1 lg:grid-cols-4 gap-6 pt-4 md:grid-cols-2 sm:grid-cols-1'>
         {foods.map((item, index) => (
           <div
             key={index}

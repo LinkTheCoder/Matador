@@ -1,16 +1,9 @@
 import { useState } from "react";
 import { HashLink as Link } from 'react-router-hash-link';
-import {FaHome,FaCarrot,FaHamburger,FaSearchLocation,FaMobile} from 'react-icons/fa';
+import {FaHome,FaCarrot,FaHamburger,FaSearchLocation,FaMobile,FaClock} from 'react-icons/fa';
   
 export default function Navbar() {
     const [navbar, setNavbar] = useState(false);
-
-    function refreshPage() {
-        setTimeout(()=>{
-            window.location.reload(false);
-        }, 300);
-        console.log('page reload')
-    }
     
     return (
         <nav className="w-full bg-white">
@@ -78,7 +71,10 @@ export default function Navbar() {
                             <FaSearchLocation className="mt-1 mr-1 w-6" color="#eab308"/><Link to="/#HittaOss">HITTA OSS</Link>
                             </div>
                             <div className="text-yellow-500 font-semibold hover:text-yellow-600 flex">
-                            <FaMobile className="mt-1 mr-1 w-6" color="#eab308"/><Link to="/PWA" onClick={refreshPage}>APP</Link>
+                            <FaClock className="mt-1 mr-1 w-6" color="#eab308"/><Link to="/#OpenTider">ÖPPEN TIDER</Link>
+                            </div>
+                            <div className="text-yellow-500 font-semibold hover:text-yellow-600 flex">
+                            <FaMobile className="mt-1 mr-1 w-6" color="#eab308"/><Link to="/#App">APP</Link>
                             </div>
                         </div>
                     </div>
