@@ -8,6 +8,10 @@
   }
 }
 
+body {
+  background-color: #ffd700;
+}
+
 * {
   scroll-behavior: smooth;
 }

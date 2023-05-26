@@ -25,84 +25,84 @@ const Dinner = () => {
 
   return (
     <div className='max-w-[1640px] m-auto px-4 py-12'>
-      <h1 id="Middag" className='text-yellow-500 font-bold text-4xl text-center'>
-        Middags Menyer
+      <h1 id="Middag" className='mb-6 text-black font-black text-4xl text-center'>
+        MIDDAGS MENYER
       </h1>
 
       {/* Filter Row */}
       <div className='mt-5 flex flex-col lg:flex-row justify-between md:mt-0'>
         {/* Fliter Type */}
         <div>
-          <p className='ml-2 font-bold text-gray-700'>Filter Typ</p>
+          <p className='ml-2 font-extrabold text-gray-700'>FILTRERA SORT</p>
           <div className='flex justfiy-between flex-wrap'>
             <button
               onClick={() => setFoods(data)}
-              className='m-1 border-yellow-500 text-yellow-500 hover:bg-yellow-500 hover:text-white'
+              className='m-1 bg-black font-bold border-black text-white hover:bg-yellow-500 hover:text-black'
             >
-              Alla
+              ALLA
             </button>
 
             <button
               onClick={() => filterType('pizza')}
-              className='m-1 border-yellow-500 text-yellow-500 hover:bg-yellow-500 hover:text-white'
+              className='m-1 font-bold bg-black border-black text-white hover:bg-yellow-500 hover:text-black'
             >
-              Pizza
+              PIZZA
             </button>
 
             <button
               onClick={() => filterType('inbakat')}
-              className='m-1 border-yellow-500 text-yellow-500 hover:bg-yellow-500 hover:text-white'
+              className='m-1 font-bold bg-black border-black text-white hover:bg-yellow-500 hover:text-black'
             >
-              Inbakade Pizzor
+              INBAKADE PIZZOR
             </button>
 
             <button
               onClick={() => filterType('veganskt')}
-              className='m-1 border-yellow-500 text-yellow-500 hover:bg-yellow-500 hover:text-white'
+              className='m-1 font-bold bg-black border-black text-white hover:bg-yellow-500 hover:text-black'
             >
-              Veganskt
+              VEGANSKT
             </button>
 
             <button
               onClick={() => filterType('pasta')}
-              className='m-1 border-yellow-500 text-yellow-500 hover:bg-yellow-500 hover:text-white'
+              className='m-1 font-bold bg-black border-black text-white hover:bg-yellow-500 hover:text-black'
             >
-              Pasta
+              PASTA
             </button>
 
             <button
               onClick={() => filterType('kebab')}
-              className='m-1 border-yellow-500 text-yellow-500 hover:bg-yellow-500 hover:text-white'
+              className='m-1 font-bold bg-black border-black text-white hover:bg-yellow-500 hover:text-black'
             >
-              kebab
+              KEBAB
             </button>
 
             <button
               onClick={() => filterType('rulle')}
-              className='m-1 border-yellow-500 text-yellow-500 hover:bg-yellow-500 hover:text-white'
+              className='m-1 font-bold bg-black border-black text-white hover:bg-yellow-500 hover:text-black'
             >
-              Rulle
+              RULLE
             </button>
 
             <button
               onClick={() => filterType('grillat')}
-              className='m-1 border-yellow-500 text-yellow-500 hover:bg-yellow-500 hover:text-white'
+              className='m-1 font-bold bg-black border-black text-white hover:bg-yellow-500 hover:text-black'
             >
-              Grillat
+              GRILLAT
             </button>
 
             <button
               onClick={() => filterType('sallad')}
-              className='m-1 border-yellow-500 text-yellow-500 hover:bg-yellow-500 hover:text-white'
+              className='m-1 font-bold bg-black border-black text-white hover:bg-yellow-500 hover:text-black'
             >
-              Sallad
+              SALLAD
             </button>
 
             <button
               onClick={() => filterType('barn')}
-              className='m-1 border-yellow-500 text-yellow-500 hover:bg-yellow-500 hover:text-white'
+              className='m-1 font-bold bg-black border-black text-white hover:bg-yellow-500 hover:text-black'
             >
-              Barn
+              BARN
             </button>
 
           </div>
@@ -110,11 +110,11 @@ const Dinner = () => {
 
         {/* Filter Price */}
         <div>
-          <p className='mt-5 ml-2 font-bold text-gray-700 md:mt-0'>Filter Land</p>
+          <p className='mt-5 ml-2 font-extrabold text-gray-700 md:mt-0'>FILTRERA LAND</p>
           <div className='flex justify-between max-w-[390px] w-full'>
             <button
               onClick={() => filterPrice('🇮🇹')}
-              className='m-1 border-yellow-500 hover:bg-yellow-500 hover:text-white'
+              className='m-1 font-bold bg-black border-black text-white hover:bg-yellow-500 hover:text-black'
               id="flags"
             >
             🇮🇹
@@ -122,7 +122,7 @@ const Dinner = () => {
 
             <button
               onClick={() => filterPrice('🇺🇸')}
-              className='m-1 border-yellow-500 hover:bg-yellow-500 hover:text-white'
+              className='m-1 font-bold bg-black border-black text-white hover:bg-yellow-500 hover:text-black'
               id="flags"
             >
               🇺🇸
@@ -130,7 +130,7 @@ const Dinner = () => {
 
             <button
               onClick={() => filterPrice('🇲🇽')}
-              className='m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white'
+              className='m-1 font-bold bg-black border-black text-white hover:bg-yellow-500 hover:text-black'
               id="flags"
             >
               🇲🇽
@@ -146,7 +146,7 @@ const Dinner = () => {
         {foods.map((item, index) => (
           <div
             key={index}
-            className='border shadow-lg rounded-lg hover:scale-105 duration-300'
+            className='bg-black shadow-lg rounded-lg hover:scale-105 duration-300'
           >
             <img
               src={item.image}
@@ -154,7 +154,7 @@ const Dinner = () => {
               className='w-full h-[200px] object-cover rounded-t-lg'
             />
             <div className='flex justify-between px-2 py-4'>
-              <p className='font-bold'>{item.name}</p>
+              <p className='font-bold text-white'>{item.name}</p>
               <p>
                 <span id="flags" className='text-white p-1 rounded-full'>
                   {item.price}

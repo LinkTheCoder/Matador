@@ -2,13 +2,13 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <div className='w-full bg-gray-100 py-16'>
+    <div className='w-full bg-black py-16'>
       <div className='max-w-[1240px] mx-auto flex flex-col px-4'>
-        <div className='sm:flex text-center justify-between items-center'>
- <p>Kunsgatan 102, 903 32 Umeå</p>
+        <div className='sm:flex font-bold text-yellow-400 text-center justify-between items-center'>
+ <p>KUNGSGATAN 102, 903 32 UMEÅ</p>
  <p>090-121100 / 090-121434</p>
  <br></br>
- <p><b>Made with 🍕 by Link Häggman</b></p>
+ <p><b>MADE WITH 🍕 BY <a className='hover:text-yellow-600' href="https://www.linkthedev.com/">LINK HÄGGMAN</a></b></p>
           </div>
         </div>
       </div>

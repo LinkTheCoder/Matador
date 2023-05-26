@@ -1,19 +1,26 @@
-import React from 'react'
+import React from 'react';
 
 const Hero = () => {
-  return ( 
-    <div className='max-w-[1640px] mx-auto p-4'>
-        <div className='max-h-[500px] relative'>
-            {/* Overlay */}
-            <div className='rounded-xl absolute w-full h-full text-gray-200 max-h-[500px] bg-black/40 flex flex-col justify-center'>
-                <h1 className='px-4 text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold'><span className='text-yellow-500'>Pizzeria</span></h1>
-                <h1 className='px-4 text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold'> & <span>Restaurang</span> 
-                <h1 className='whitespace-pre-line text-yellow-500'>Öst på Stan</h1></h1>
-            </div>
-            <img className='rounded-xl w-full max-h-[500px] object-cover' src='/images/HeroImage.jpg' alt="/" />
-        </div>
-    </div>
-  )
-}
+  return (
+   
+<div className="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-5">
 
-export default Hero
+<div className="rounded overflow-hidden">
+  <div className="px-6 py-4 text-left">
+    <div className="font-normal text-6xl mb-2 sm: text-5xl">PIZZERIA & RESTAURANG</div>
+    <p className="font-black text-6xl sm: text-5xl">
+ÖST PÅ STAN
+    </p>
+  </div>
+</div>
+
+<div className="rounded overflow-hidden">
+  <div className="flex justify-end mr-10">
+    <img className="w-64" src="/images/HeroImage.png" />
+  </div>
+</div>
+</div>
+  );
+};
+
+export default Hero;
