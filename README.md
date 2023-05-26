@@ -6,8 +6,8 @@
 
 🍔 Filter system for dishes!
 
-💻 Has a cross-platform web app to desktop, tablets & mobiles!
+💻 Cross-platform web app to desktop, tablets & mobiles!
 
-📲 Automatic updates!
+📲 Automatic updates online!
 
 <img src="https://i.imgur.com/FhjuQnH.png" width="700">
