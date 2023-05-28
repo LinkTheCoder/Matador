@@ -33,7 +33,7 @@ const PWA = () => {
   return (
     <div className="text-center">
       <h1 id="App" className='mt-6 mb-2 text-black font-black text-4xl text-center'>
-        LADDA NER APP
+        LADDA NER APPEN
       </h1>
       <div className="p-4 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2">
         <div>
