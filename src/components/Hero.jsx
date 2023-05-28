@@ -7,7 +7,7 @@ const Hero = () => {
 
 <div className="rounded overflow-hidden">
   <div className="md:px-8 py-4 text-left">
-    <div id="Hem" className="font-normal md:text-6xl mb-2 sm: text-4xl">PIZZERIA & RESTAURANG</div>
+    <div className="font-normal md:text-6xl mb-2 sm: text-4xl">PIZZERIA & RESTAURANG</div>
     <p className="font-black md:text-6xl sm: text-4xl">
 ÖST PÅ STAN
     </p>
