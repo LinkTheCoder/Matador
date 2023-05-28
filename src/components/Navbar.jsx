@@ -4,12 +4,12 @@ import {FaHome,FaCarrot,FaHamburger,FaSearchLocation,FaMobile,FaClock} from 'rea
 export default function Navbar() {
     
     return (
-        <nav className="w-full bg-black pb-2 top-0">
+        <nav id="Hem" className="w-full bg-black pb-2 top-0">
             <div className="mr-5 justify-between px-4 mx-auto lg:max-w-8xl md:items-center md:flex md:px-8">
                 <div>
                     <div className="ml-2 flex items-center justify-between py-3 md:py-4 md:block md:ml-0">
                         <div>
-                            <Link id="Hem" className="outline outline-offset-2 outline-yellow-400 text-yellow-400 text-3xl font-black" to="/">RESTAURANG MATADOR</Link>
+                            <Link className="outline outline-offset-2 outline-yellow-400 text-yellow-400 text-3xl font-black" to="/">RESTAURANG MATADOR</Link>
                         </div>
                     </div>
                 </div>
