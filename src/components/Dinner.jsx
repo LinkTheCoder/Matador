@@ -24,8 +24,8 @@ const Dinner = () => {
   };
 
   return (
-    <div className='max-w-[1640px] m-auto px-4 py-12'>
-      <h1 id="Middag" className='mb-6 text-black font-black text-4xl text-center'>
+    <div id="Middag" className='max-w-[1640px] m-auto px-4 py-12'>
+      <h1 className='mb-6 text-black font-black text-4xl text-center'>
         MIDDAGS MENYER
       </h1>
 
