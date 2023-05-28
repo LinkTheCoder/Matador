@@ -21,7 +21,7 @@ export default function NavbarSmall() {
           </div>
           </Link>
           
-          <Link to="/">
+          <Link to="/#Hem">
       <div>
           <button className="border-none px-0 py-0 hover:opacity-50 duration-150" id="start"><FaHome color="#eab308" size="2em"/></button>
           </div>
