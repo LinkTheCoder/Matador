@@ -46,10 +46,7 @@ const PWA = () => {
         <div className="lg:flex justify-begining lg:pl-10 lg:pt-28 sm: pl-0 pt-0">
   <ul className="mt-4 space-y-5 text-gray text-base flex flex-col items-center sm: mt-0">
     <button className='border-none px-0 py-0' onClick={handleInstallButtonClick}><img className='w-32 mx-auto' src='/images/Android.png' alt="/"/></button>
-
     <button className='border-none px-0 py-0' onClick={handleIOSButtonClick}><img className='w-32 mx-auto' src='/images/IOS.png' alt="/"/></button>
-
-    <button className='border-none px-0 py-0' onClick={handleInstallButtonClick}><img className='w-32 mx-auto' src='/images/Chrome.png' alt="/"/></button>
   </ul>
 </div>
       </div>
