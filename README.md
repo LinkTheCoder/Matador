@@ -1,5 +1,7 @@
 # Matador
 
+<img src="https://i.imgur.com/plqn6UU.png" width="50%" />
+
 🍕 A re-make of a restaurant website!
 
 📱 Modern responsive design for all devices!
@@ -9,5 +11,3 @@
 💻 Cross-platform web app to desktop, tablets & mobiles!
 
 📲 Automatic updates online!
-
-<img src="https://i.imgur.com/FhjuQnH.png" width="700">
