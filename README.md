@@ -1,6 +1,6 @@
 # Matador
 
-<img src="https://i.imgur.com/plqn6UU.png" width="50%" />
+<img src="https://i.imgur.com/uviH1fc.png" width="50%" />
 
 🍕 A re-make of a restaurant website!
 
