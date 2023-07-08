@@ -15,7 +15,7 @@ export default function Navbar() {
                 </div>
                 <div>
                    
-                        <div className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0 sm: hidden">
+                        <div className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0 md: hidden">
                             <div className="text-yellow-400 font-bold hover:text-yellow-600 flex">
                             <FaHome className="mt-1 mr-1 w-6" color="#eab308"/><Link to="/">HEM</Link>
                             </div>

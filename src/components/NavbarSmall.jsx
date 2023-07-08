@@ -4,7 +4,7 @@ import {FaHome,FaCarrot,FaHamburger,FaSearchLocation,FaClock} from 'react-icons/
 export default function NavbarSmall() {
 
     return ( 
-<footer className="fixed bottom-0 md:hidden" >
+<footer className="fixed bottom-0 lg:hidden" >
     <nav className="backdrop-blur-sm bg-black fixed bottom-0 w-full">
       <div className="py-2 flex md:py-4">
         <div className="flex space-x-7 mx-auto">
