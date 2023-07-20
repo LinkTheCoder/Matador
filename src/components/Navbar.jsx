@@ -31,9 +31,6 @@ export default function Navbar() {
                             <div className="text-yellow-400 font-bold hover:text-yellow-600 flex">
                             <FaClock className="mt-1 mr-1 w-6" color="#eab308"/><Link to="/#OpenTider">ÖPPEN TIDER</Link>
                             </div>
-                            <div className="text-yellow-400 font-bold hover:text-yellow-600 flex">
-                            <FaMobile className="mt-1 mr-1 w-6" color="#eab308"/><Link to="/#App">APP</Link>
-                            </div>
                         </div>
                     </div>
                 </div>
