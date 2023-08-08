@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { data } from '../data/data.js';
+import LazyLoad from 'react-lazyload';
 
 const Dinner = () => {
   //   console.log(data);
@@ -144,7 +145,7 @@ const Dinner = () => {
       {/* Display foods */}
       <div className='grid grid-cols-1 lg:grid-cols-4 gap-6 pt-4 md:grid-cols-2 sm:grid-cols-1'>
         {foods.map((item, index) => (
-          <div
+            <LazyLoad 
             key={index}
             className='bg-black shadow-lg rounded-lg hover:scale-105 duration-300'
           >
@@ -161,7 +162,7 @@ const Dinner = () => {
                 </span>
               </p>
             </div>
-          </div>
+            </LazyLoad>
         ))}
       </div>
     </div>
