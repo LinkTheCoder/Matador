@@ -10,11 +10,10 @@ const Lunch = () => {
   </h1>
   
     <div className='max-w-[1640px] mx-auto p-4 grid md:grid-cols-3 gap-6'>
-    <LazyLoad>
-          <CardLunch title="KEBAB/PIZZATALLRIK" time="10/12 (10:30 - 15:00)" price="90" bg="/images/KebabLunch.jpg" alt="kebab"/>
-          <CardLunch title="SALLADSTALLRIK" time="10/14 (10:30 - 15:00)" price="70" bg="/images/SalladTallrik.jpg" alt="salladstallrik"/>
-          <CardLunch title="HUSMANSKOSTTALRK" time="10/16 (10:30 - 15:00)" price="70" bg="/images/Husmakost.jpg" alt="husmakost"/>
-        </LazyLoad>
+    <CardLunch title="KEBAB/PIZZATALLRIK" time="10/12 (10:30 - 15:00)" price="90" bg="/images/KebabLunch.jpg" alt="kebab"/>  
+    <CardLunch title="SALLADSTALLRIK" time="10/14 (10:30 - 15:00)" price="70" bg="/images/SalladTallrik.jpg" alt="salladstallrik"/>  
+    <CardLunch title="HUSMANSKOSTTALRK" time="10/16 (10:30 - 15:00)" price="70" bg="/images/Husmakost.jpg" alt="husmakost"/>  
+    
     </div>
     <p className='pb-8 text-center font-medium text-yellow-400'>* STUDENT & PENSIONERSRABATT 10%</p>
     </div>
