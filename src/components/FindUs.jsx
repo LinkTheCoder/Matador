@@ -11,7 +11,7 @@ const FindUs = () => {
       <h1 className='mt-6 mb-2 text-yellow-400 font-bold text-4xl text-center'>
     HITTA OSS
   </h1>
-        <iframe className='rounded-xl mt-4 w-full aspect-auto' title="Google Maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1760.1452508885463!2d20.281693216216002!3d63.822130850013544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x467c5b0596b7c201%3A0x50415757cd11359a!2sRestaurang%20%26%20Pizzeria%20Matador!5e0!3m2!1ssv!2sse!4v1662550826900!5m2!1ssv!2sse" height="400em" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+    <img className="mx-auto rounded-lg w-2/3" src="/images/GMap.png" alt='Map' loading="lazy" height="330" width="180"/>
       </div>
       <div className="mb-7 px-6 pt-4 pb-2 text-center md:mb-0">
       </div>
