@@ -12,6 +12,8 @@ const CardLunch = (props) => {
      className='max-h-[160px] md:max-h-[200px] w-full object-cover rounded-xl'
        src={props.bg}
        alt={props.alt}
+       width="200" 
+       height="200"
      />
    </div>
   );
