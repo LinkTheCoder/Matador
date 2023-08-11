@@ -22,7 +22,7 @@ body {
   url("./fonts/NotoColorEmoji.ttf");
   }
 
-  #flags {
+  .flags {
     font-family: 'NotoColorEmoji';
   }  
 

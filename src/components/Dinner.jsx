@@ -115,28 +115,24 @@ const Dinner = () => {
           <div className='flex justify-between max-w-[390px] w-full'>
             <button
               onClick={() => filterPrice('🇮🇹')}
-              className='m-1 font-bold bg-black border-black text-white hover:bg-yellow-500 hover:text-black'
-              id="flags"
+              className='flags m-1 font-bold bg-black border-black text-white hover:bg-yellow-500 hover:text-black'
             >
             🇮🇹
             </button>
 
             <button
               onClick={() => filterPrice('🇺🇸')}
-              className='m-1 font-bold bg-black border-black text-white hover:bg-yellow-500 hover:text-black'
-              id="flags"
+              className='flags m-1 font-bold bg-black border-black text-white hover:bg-yellow-500 hover:text-black'
             >
               🇺🇸
             </button>
 
             <button
               onClick={() => filterPrice('🇲🇽')}
-              className='m-1 font-bold bg-black border-black text-white hover:bg-yellow-500 hover:text-black'
-              id="flags"
+              className='flags m-1 font-bold bg-black border-black text-white hover:bg-yellow-500 hover:text-black'
             >
               🇲🇽
             </button>
-
           </div>
         </div>
       </div>
