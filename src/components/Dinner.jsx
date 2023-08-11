@@ -153,7 +153,7 @@ const Dinner = () => {
             <div className='flex justify-between px-2 py-4'>
               <p className='font-bold text-white'>{item.name}</p>
               <p>
-                <span id="flags" className='text-white p-1 rounded-full'>
+                <span className='flags text-white p-1 rounded-full'>
                   {item.price}
                 </span>
               </p>
