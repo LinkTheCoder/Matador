@@ -11,31 +11,31 @@ export default function NavbarSmall() {
 
         <Link to="/#Lunch">
           <div>
-          <button className="border-none px-0 py-0 hover:opacity-50 duration-150" id="start"><FaCarrot color="#eab308" size="2em"/></button>
+          <button title="Lunch" className="border-none px-0 py-0 hover:opacity-50 duration-150"><FaCarrot color="#eab308" size="2em"/></button>
           </div>
           </Link>
 
           <Link to="/#Middag">
           <div>
-          <button className="border-none px-0 py-0 hover:opacity-50 duration-150" id="start"><FaHamburger color="#eab308" size="2em"/></button>
+          <button className="border-none px-0 py-0 hover:opacity-50 duration-150"><FaHamburger color="#eab308" size="2em"/></button>
           </div>
           </Link>
           
           <Link to="/#Hem">
       <div>
-          <button className="border-none px-0 py-0 hover:opacity-50 duration-150" id="start"><FaHome color="#eab308" size="2em"/></button>
+          <button className="border-none px-0 py-0 hover:opacity-50 duration-150"><FaHome color="#eab308" size="2em"/></button>
           </div>
   </Link>
 
   <Link to="/#HittaOss">
           <div>
-          <button className="border-none px-0 py-0 hover:opacity-50 duration-150" id="start"><FaSearchLocation color="#eab308" size="2em"/></button>
+          <button className="border-none px-0 py-0 hover:opacity-50 duration-150"><FaSearchLocation color="#eab308" size="2em"/></button>
           </div>
           </Link>
 
           <Link to="/#OpenTider">
           <div>
-          <button className="border-none px-0 py-0  hover:opacity-50 duration-150" id="start"><FaClock color="#eab308" size="2em"/></button>
+          <button className="border-none px-0 py-0  hover:opacity-50 duration-150"><FaClock color="#eab308" size="2em"/></button>
           </div>
   </Link>
           
