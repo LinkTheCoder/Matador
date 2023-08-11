@@ -11,7 +11,11 @@ const FindUs = () => {
       <h1 className='mt-6 mb-2 text-yellow-400 font-bold text-4xl text-center'>
     HITTA OSS
   </h1>
-    <img className="mx-auto rounded-lg w-2/3" src="/images/GMap.png" alt='Map' loading="lazy" height="330" width="180"/>
+  <div className="relative">
+  <img className="mx-auto rounded-lg w-auto lg:w-2/3" src="/images/GMap.png" alt='Map' loading="lazy" height="330" width="180"/>
+  <a href="https://www.google.com/maps/place/Restaurang+%26+Pizzeria+Matador/@63.8221285,20.281307,17z/data=!3m1!4b1!4m6!3m5!1s0x467c5b0596b7c201:0x50415757cd11359a!8m2!3d63.8221285!4d20.2838819!16s%2Fg%2F1vm_wj55?entry=ttu"
+   className="sm: mr-0.5 md:mr-2 lg:mr-36 border rounded-xl px-3 py-1 mr-36 absolute bottom-0 right-0 m-2 bg-black font-bold border-black text-white hover:bg-yellow-500 hover:text-black">Google Maps</a>
+</div>
       </div>
       <div className="mb-7 px-6 pt-4 pb-2 text-center md:mb-0">
       </div>
