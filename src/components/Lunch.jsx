@@ -10,11 +10,9 @@ const Lunch = () => {
   </h1>
   
   <div className='max-w-[1640px] mx-auto p-4 grid md:grid-cols-3 gap-6'>
-  <LazyLoad height={200} offset={100} once>
     <CardLunch title="KEBAB/PIZZATALLRIK" time="10/12 (10:30 - 15:00)" price="90" bg="/images/KebabLunch.jpg" alt="kebab" />
-  </LazyLoad>
-
-  <LazyLoad height={200} offset={100} once>
+  
+<LazyLoad height={200} offset={100} once>
     <CardLunch title="SALLADSTALLRIK" time="10/14 (10:30 - 15:00)" price="70" bg="/images/SalladTallrik.jpg" alt="salladstallrik" />    
   </LazyLoad>
 
