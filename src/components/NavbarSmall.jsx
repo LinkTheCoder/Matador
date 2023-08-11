@@ -17,25 +17,25 @@ export default function NavbarSmall() {
 
           <Link to="/#Middag">
           <div>
-          <button className="border-none px-0 py-0 hover:opacity-50 duration-150"><FaHamburger color="#eab308" size="2em"/></button>
+          <button title="Middag" className="border-none px-0 py-0 hover:opacity-50 duration-150"><FaHamburger color="#eab308" size="2em"/></button>
           </div>
           </Link>
           
           <Link to="/#Hem">
       <div>
-          <button className="border-none px-0 py-0 hover:opacity-50 duration-150"><FaHome color="#eab308" size="2em"/></button>
+          <button title="Hem" className="border-none px-0 py-0 hover:opacity-50 duration-150"><FaHome color="#eab308" size="2em"/></button>
           </div>
   </Link>
 
   <Link to="/#HittaOss">
           <div>
-          <button className="border-none px-0 py-0 hover:opacity-50 duration-150"><FaSearchLocation color="#eab308" size="2em"/></button>
+          <button title="HittaOss" className="border-none px-0 py-0 hover:opacity-50 duration-150"><FaSearchLocation color="#eab308" size="2em"/></button>
           </div>
           </Link>
 
           <Link to="/#OpenTider">
           <div>
-          <button className="border-none px-0 py-0  hover:opacity-50 duration-150"><FaClock color="#eab308" size="2em"/></button>
+          <button title="Öppen Tider" className="border-none px-0 py-0  hover:opacity-50 duration-150"><FaClock color="#eab308" size="2em"/></button>
           </div>
   </Link>
           
