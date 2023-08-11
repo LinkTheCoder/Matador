@@ -16,7 +16,7 @@ const Hero = () => {
 
 <div className="rounded overflow-hidden">
   <div className="flex justify-end mr-10">
-    <img className="w-64" src="/images/HeroImage.png" alt='pizza'/>
+    <img className="w-64" src="/images/HeroImage.png" alt='pizza' width="64" height="auto"/>
   </div>
 </div>
 </div>
