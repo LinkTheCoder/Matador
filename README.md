@@ -9,5 +9,3 @@
 🍔 Filter system for dishes!
 
 💻 Cross-platform web app to desktop, tablets & mobiles!
-
-📲 Automatic updates online!
