@@ -8,7 +8,7 @@ const Footer = () => {
  <p>KUNGSGATAN 102, 903 32 UMEÅ</p>
  <p>090-121100 / 090-121434</p>
  <br></br>
- <p><b>MADE WITH 🍕 BY <a className='hover:text-orange-700' href="https://www.linkthedev.com/">LINK HÄGGMAN</a></b></p>
+ <p><b>MADE WITH 🍕 BY <a className='hover:text-orange-700' href="https://www.linkthedev.com/">LinkTheCoder</a></b></p>
           </div>
         </div>
       </div>
